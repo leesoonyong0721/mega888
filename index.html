@@ -5,18 +5,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MEGA888 Agent</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 
 <body>
-    <center>
-        <img src="512mega888.png" style="max-width:300px;min-width:280px;">
-        <br>
-        <h1>Mega888 Agent</h1>
-        <img src="bg_menu.jpg" style="max-width:480px;min-width:360px;">
-        <br>
-        <br>
-        <button onclick="location.assign('/games');">PLAY</button>
-    </center>
+    <div class="container">
+        <main role="main" class="pb-3">
+    <div class="row">
+        <div class="col-12" style="text-align:center">
+            <h1>Mega888 Agent</h1>
+            <img src="512mega888.png" style="max-width:300px;">
+            <br>
+            <img src="bg_menu.jpg" class="img-fluid">
+            <br>
+            <br>
+            <a class="btn btn-success" onclick="location.assign('/games');">PLAY</a>
+            <br>
+            <br>
+        </div>
+    </div>
+        </main>
+    </div>
 </body>
 
 </html>
